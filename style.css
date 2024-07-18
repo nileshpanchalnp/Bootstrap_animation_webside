@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(136, 155, 174);
+}
+
+.fa-facebook:hover {
+    color: #1877F2;
+}
+
+.fa-instagram:hover {
+    color: rgb(223, 90, 161);
+}
+
+.fa-twitter:hover {
+    color: blue;
+}
+
+.fa-linkedin:hover {
+    color: #00b9ff;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2, ;
+}
+
+.card:hover {
+
+    background-color: lightgray;
+}
+
+#dhruval{
+    background-color:#ffc107;
+}
+
+#dhruval:hover{
+   background-color:yellow ;
+   color: black;
+}
+
+/* responsive */
+@media only screen and(max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./img/favicon-removebg-preview.png" type="image/x-icon">
+
+    <!-- boostrap css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- animation link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Geologica:wght@500&family=Poppins:ital,wght@0,300;0,500;1,300&family=Roboto:ital,wght@0,300&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: whitesmoke;">
+
+    <!--------------------------------- header strat---------------------------->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid " data-aos="fade-right" data-aos-duration="2000">
+            <a class="navbar-brand" href="#"><img src="./img/download-removebg-preview (1).png" style="height: 100px;"
+                    data-aos="zoom-in-up" data-aos-duration="1500"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto fs-4">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#services">services</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#potfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex fs-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn " id="dhruval"  type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------- header end------------------------------------->
+
+    <!----------------------------------- home ssection start----------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide ">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/home01-slider-bg-04.jpg" class="d-block img-fluid" style="height: 600px; width: 100%;">
+                <div class="carousel-caption ">
+                    <h5 class="fs-2 text-primary" data-aos="zoom-in-up" data-aos-duration="1500">Your Drem house</h5>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis quisquam amet
+                        sunt.</p>
+                    <p><a href="#" class="btn  mt-3 fs-5" id="dhruval" data-aos="fade-left" data-aos-duration="2000">Lern
+                            More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/home01-slider-bg-05.jpg" class="d-block img-fluid" style="height: 600px; width: 100%;">
+                <div class="carousel-caption ">
+                    <h5 class="fs-2 text-primary">Always dedicated</h5>
+                    <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis quisquam amet
+                        sunt.</p>
+                    <p><a href="#" class="btn  mt-3  fs-5" id="dhruval" data-aos="fade-left" data-aos-duration="2000">Lern
+                            More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/slider-bg-01.jpg" class="d-block img-fluid " style="height: 600px; width: 100%;">
+                <div class="carousel-caption ">
+                    <h5 class="fs-2 text-primary">True construction</h5>
+                    <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis quisquam amet
+                        sunt.</p>
+                    <p><a href="#" class="btn mt-3"  id="dhruval" data-aos="fade-left" data-aos-duration="2000">Lern
+                            More</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--------------------------------- close home section----------------------------------->
+
+
+    <!----------------------------------------about section-------------------------------------------->
+    <section id="about" class="about section-padding">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12" data-aos="flip-left" data-aos-duration="3000">
+                    <div class="about-img pt-5 pb-5">
+                        <img src="./img/portfolio-bg-29.jpg" class="img-fluid img-thumbnail">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5" data-aos="zoom-in-left" data-aos-duration="3000">
+                    <div class="about-text" data-aos="flip-down" data-aos-duration="3000">
+                        <h2 class="text-dark fw-bolde fs-2" style="font-family: poppins;">we provide best Quality
+                            <br><span class="text-secondary" style="font-family: poppins;">services Ever</span>
+                        </h2>
+                        <p class="fs-5 lh-1.2 pt-3 text-secondary " style="font-family: roboto;">Lorem ipsum dolor sit
+                            amet consectetur
+                            adipisicing elit.quis ipsum,
+                            alias quo sunt
+                            adipisci dolorem consequatur voluptatibus quisquam velit! Quibusdam deserunt molestias
+                            necessitatibus eos pariatur nisi, ipsam aspernatur soluta? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Corrupti, cum iste error fugit illum explicabo eveniet facilis
+                            est reprehenderit deserunt!.
+                        </p>
+                        <button type="button" class="btn  fs-5 bg-opacity-25 fw-medium" id="dhruval">Warning</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about secction end -->
+
+    <!------------------------------------ services section ------------------------------------>
+
+    <div id="services" class="services section">
+        <div class="container">
+            <div class="row" data-aos="fade-right" data-aos-duration="2000">
+                <div class="col-md-12 mt-5 shadow-lg">
+                    <div class="section-header  text-center pb-3 pt-3">
+                        <h2 class="fw-bold text-secondary fs-2" style="font-family: poppins;" data-aos="zoom-in"
+                            data-aos-duration="2000">Our Services</h2>
+                        <p class="fs-4 text-dark opacity-50" style="font-family: comforta;">Lorem ipsum dolor sit amet,
+                            consectetur <br> adipisicing
+                            elit. Nostrum .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-12 col-md-12 col-lg-4 py-5">
+                    <div class="card text-white text-center bg-dark bg-opacity-50 pb-2 shadow-sm">
+                        <div class="card-body fs-4">
+                            <i class="fa-brands fa-slack fs-1 text-black" data-aos="fade-left"
+                                data-aos-duration="2000"></i>
+                            <h3 class="card-title"></h3>
+                            <p class="lead" style="font-family: robota;">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Eos voluptatibus
+                                deserunt odit eum. Doloremque adipisci, quisquam dolorem enim nam itaque.</p>
+                            <button class="btn   text-dark" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="500"id="dhruval">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 py-5">
+                    <div class="card text-white text-center bg-dark bg-opacity-50 pb-2 shadow-sm">
+                        <div class="card-body fs-4">
+                            <i class="fa-brands fa-playstation fs-1 text-black" data-aos="fade-left"
+                                data-aos-duration="2000"></i>
+
+                            <h3 class="card-title"></h3>
+                            <p class="lead" style="font-family: robota;">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Eos voluptatibus
+                                deserunt odit eum. Doloremque adipisci, quisquam dolorem enim nam itaque.</p>
+                            <button class="btn  text-dark"id="dhruval" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="500">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 py-5">
+                    <div class="card text-white text-center bg-dark bg-opacity-50 pb-2 shadow-sm">
+                        <div class="card-body fs-4">
+                            <i class="fa-solid fa-sheet-plastic fs-1 text-black" data-aos="fade-left"
+                                data-aos-duration="2000"></i>
+                            <h3 class="card-title"></h3>
+                            <p class="lead" style="font-family: robota;">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Eos voluptatibus
+                                deserunt odit eum. Doloremque adipisci, quisquam dolorem enim nam itaque.</p>
+                            <button class="btn  text-dark"id="dhruval" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="500">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------- portfolio section start------------------------------>
+    <section id="potfolio" class="potfolio">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12" style="box-shadow: 15px 15px 40px rgba(0,0,0,0.15);">
+                    <div class="section-header text-center pb-3 pt-3" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <h2 class="fs-2" data-aos="flip-left" data-aos-duration="1500" style="font-family: poppins;">
+                            Oure Project</h2>
+                        <p class="fs-4 text-secondary" style="font-family: comforta;">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. In
+                            deserunt <br> eveniet optio eligendi
+                            nihil dicta! Doloribus, quia hic ducim</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5" data-aos="fade-right" data-aos-duration="2500">
+                <div class=" col-12 col-md-12 col-lg-4 mt-4">
+                    <div class="card text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-2">
+                                <img src="./img/stage_large_tall_buildings.jpg" alt="" class="img-fluid"
+                                    data-aos="zoom-in" data-aos-duration="2500">
+                            </div>
+                            <h3 class="card-title">Bulding Make</h3>
+                            <p class="lead " style="font-family: robboto;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Asperiores
+                                possimus est optio eum dolore perspiciatis, blanditiis ab iste, dignissimos earum.
+                            <p>
+                                <button class="btn  text-dark fs-5"id="dhruval" data-aos="fade-right"
+                                    data-aos-duration="2000">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-md-12 col-lg-4 mt-4">
+                    <div class="card text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="./img/img back.jpg" alt="" class="img-fluid" data-aos="zoom-in"
+                                    data-aos-duration="2500">
+                            </div>
+                            <h3 class="card-title ">Bulding Make</h3>
+                            <p class="lead " style="font-family: robboto;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Asperiores
+                                possimus est optio eum dolore perspiciatis, blanditiis ab iste, dignissimos earum.</p>
+                            <button class="btn  text-dark fs-5"id="dhruval" data-aos="fade-right"
+                                data-aos-duration="2000">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-md-12 col-lg-4 mt-4 ">
+                    <div class="card text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="./img/green-building-district-wallpaper-user-1920x1200.jpg" alt=""
+                                    class="img-fluid " data-aos="zoom-in" data-aos-duration="2500">
+                            </div>
+                            <h3 class="card-title ">Bulding Make</h3>
+                            <p class="lead " style="font-family: robboto;">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Asperiores
+                                possimus est optio eum dolore perspiciatis, blanditiis ab iste, dignissimos earum.</p>
+                            <button class="btn  text-dark fs-5"id="dhruval" data-aos="fade-right"
+                                data-aos-duration="2000">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------------------services section end------------------------------------------- -->
+
+    <!-- team section start -->
+    <section id="team" class="team-section">
+        <div class="container ">
+            <div class="row py-3">
+                <div class="col-md-12" style="box-shadow: 15px 15px 40px rgba(0,0,0,0.15);" data-aos="fade-left"
+                    data-aos-duration="3000">
+                    <div class="section-header text-center pb-3 pt-3">
+                        <h2 class="fs-2 fw-bold" data-aos="fade-down" data-aos-duration="2000"
+                            style="font-family: poppins;" style="font-family: poppins;">Our Team</h2>
+                        <p class="fs-4 text-secondary" style="font-family: comforta;">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Quaerat
+                            voluptates delectus <br> fugit libero. Quos expedita reiciendis eveniet amet earum,.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5" data-aos="fade-up-left" data-aos-duration="1000">
+                <div class="col-12 col-md-6 col-lg-3 py-2">
+                    <div class="card text-center">
+                        <div class="card-mirror shadow-sm">
+                            <img src="./img/download (1).jpg" class="img-fluid rounded-circle pt-3"
+                                style="height: 100px;" data-aos="zoom-in" data-aos-duration="1500">
+                            <h3 class="card-mad py-2 fs-4">Jack Wilson</h3>
+                            <p class="card-text fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Itaque nobis .</p>
+                            <p class="socials fs-5 text-black" data-aos="fade-right" data-aos-duration="1500">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3  py-2">
+                    <div class="card text-center">
+                        <div class="card-mirror shadow-sm">
+                            <img src="./img/images (2).jpg
+                            " class="img-fluid rounded-circle pt-3" style="height: 100px;" data-aos="zoom-in"
+                                data-aos-duration="1500">
+                            <h3 class="card-mad py-2 fs-4">Jack Wilson</h3>
+                            <p class="card-text fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Itaque nobis .</p>
+                            <p class="socials fs-5 text-black" data-aos="fade-right" data-aos-duration="1500">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 py-2">
+                    <div class="card text-center">
+                        <div class="card-mirror shadow-sm">
+                            <img src="./img/images (3).jpg" class="img-fluid rounded-circle pt-3" style="height: 100px;"
+                                data-aos="zoom-in" data-aos-duration="1500">
+                            <h3 class="card-mad py-2 fs-4">Jack Wilson</h3>
+                            <p class="card-text fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Itaque nobis .</p>
+                            <p class="socials fs-5 text-black" data-aos="fade-right" data-aos-duration="1500">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 py-2">
+                    <div class="card text-center">
+                        <div class="card-mirror shadow-sm">
+                            <img src="./img/images.jpg" class="img-fluid rounded-circle pt-3" style="height: 100px;"
+                                data-aos="zoom-in" data-aos-duration="1200">
+                            <h3 class="card-mad py-2 fs-4">Jack Wilson</h3>
+                            <p class="card-text fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Itaque nobis .</p>
+                            <p class="socials fs-4 text-black" data-aos="fade-right" data-aos-duration="1500">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section end -->
+
+    <!-- -------------------------------contact section start-------------------------------- -->
+    <div id="contact" class="contact-section">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-12 ">
+                    <div class="section-header text-center shadow-sm pb-2 pt-2">
+                        <h2 class="fs-2 fw-bold" data-aos="flip-up" data-aos-duration="1400"
+                            style="font-family: poppins;">Contact Us</h2>
+                        <p class="fs-4" data-aos="fade-left" data-aos-duration="1400" style="font-family: comforta;">
+                            Lorem, ipsum dolor sit amet
+                            consectetur <br> adipisicing elit. Ab, quos?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 pb-4">
+                <div class="col-md-12 pt-4 p-4 m-auto">
+                    <div class="row" data-aos="flip-down" data-aos-duration="1500">
+                        <form>
+                            <div class="col-md-12">
+
+                                <div class="mb-3">
+                                    <input type="text" class="form-control shadow-sm" placeholder="Your full name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="Email" class="form-control shadow-sm" placeholder="Your Email here"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control shadow-sm" placeholder="Your Qurey Here"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn  fs-5"id="dhruval" type="button">Send Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section end -->
+
+    <!------------------------------------ footer section strat--------------------------------------->
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white p-2 pt-3 fs-5 align-content-center">All Right Resered 2023 &copy;Created by Nilesh Panchal.
+            </p>
+        </div>
+    </footer>
+    <!------------------------------------- footer section end------------------------------------- -->
+
+    <!-- boostrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- animation js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
